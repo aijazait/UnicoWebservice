@@ -29,7 +29,7 @@ public class RestWebServiceController {
 
     /** The jms message service. */
     @Autowired
-    priavate JMSMessageService jmsMessageService;
+    private JMSMessageService jmsMessageService;
 
     /** The Constant logger. */
     private static final Logger logger = LoggerFactory.getLogger(RestWebServiceController.class);
