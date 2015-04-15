@@ -30,7 +30,7 @@ public class SoapWebServiceController extends SpringBeanAutowiringSupport {
 
     /** The jms message service. */
     @Autowired
-    JMSMessageService jmsMessageService;
+    private JMSMessageService jmsMessageService;
 
     /**
      * Gets the gcd.
